@@ -100,11 +100,11 @@
       .topbar .btn .lbl-full{display:none}
       @media (min-width:560px){ .topbar .btn .lbl-full{display:inline} }
       @media (max-width:559px){
-        .brand{font-size:17px;white-space:nowrap}
+        .brand{font-size:17px;white-space:nowrap;flex:0 0 100%;margin-right:0}
         .brand small{display:none}
         .brand .mark{width:32px;height:32px;font-size:16px}
-        .topbar-in{gap:8px;flex-wrap:wrap}
-        .topbar .btn{padding:8px 12px;font-size:13.5px;min-height:40px}
+        .topbar-in{gap:8px;flex-wrap:wrap;align-items:stretch}
+        .topbar .btn{padding:8px 8px;font-size:13px;min-height:42px;flex:1 1 0;min-width:0}
         .topbar .btn svg{display:none}
       }
       .mobilebar .btn{white-space:nowrap;font-size:15px;padding:10px 12px}
